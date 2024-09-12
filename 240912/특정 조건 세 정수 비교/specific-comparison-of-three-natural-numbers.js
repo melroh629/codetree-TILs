@@ -12,7 +12,7 @@ if(num1 < num2 && num1 < num3) { //최소값 구하는 곳
     ans1 =0;
 }
 
-if(num1 === num2 === num3) {
+if(num1 === num2 && num2 === num3) {
     ans2 = 1;
 } else {
     ans2 = 0;
