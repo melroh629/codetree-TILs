@@ -6,9 +6,12 @@ let b = Number(input[1]);
 let c = Number(input[2]);
 
 
-if( a > b) {
-    if(a > c) console.log(a)
-    else console.log(c)
-} else if ( b > c ) {
-    console.log(b)
-} console.log(c)
+if( a >= b){
+    if(a >= c) {
+        console.log(a);
+    } else console.log(c)
+} else {
+    if(b >= c) {
+        console.log(b)
+    } else console.log(c)
+}
