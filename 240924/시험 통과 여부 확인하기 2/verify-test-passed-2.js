@@ -14,16 +14,12 @@ const getAverage = array => {
     return average;
 }
 
-const getGrade = array => {
-    let score = getAverage(array);
-    if(score >= 60) {
-        console.log('pass');
-        pass++;
-    } else {
-        console.log('fail');
-    }
+
+let score = getAverage(array);
+if(score >= 60) {
+    console.log('pass');
+    pass++;
+} else {
+    console.log('fail');
 }
-getGrade(student1);
-getGrade(student2);
-getGrade(student3);
 console.log(pass);
