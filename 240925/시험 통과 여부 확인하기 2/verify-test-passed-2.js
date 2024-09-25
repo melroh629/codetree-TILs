@@ -1,9 +1,5 @@
 const fs = require("fs");
 let input = fs.readFileSync(0).toString().trim().split("\n");
-let counts = Number(input[0]);
-// let student1 = input[1].split(" ").map(Number);
-// let student2 = input[2].split(" ").map(Number);
-// let student3 = input[3].split(" ").map(Number);
 
 let students = input.slice(1);
 let count=0;
